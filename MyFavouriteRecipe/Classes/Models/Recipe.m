@@ -17,10 +17,11 @@
 @synthesize pictureUrlPath;
 
 // hELLO WORLD
+
 - (id)initWithDictionary:(NSDictionary *) dic {
     
     if (self = [super init]) {
-        
+        NSLog(@"32 ");
         NSLog(@"asdasd");
     }
     return self;
