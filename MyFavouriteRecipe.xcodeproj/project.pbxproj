@@ -12,13 +12,17 @@
 		1D96598D19229BD2001250DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D96598C19229BD2001250DD /* UIKit.framework */; };
 		1D96599319229BD2001250DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D96599119229BD2001250DD /* InfoPlist.strings */; };
 		1D96599519229BD2001250DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D96599419229BD2001250DD /* main.m */; };
-		1D96599919229BD2001250DD /* CRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D96599819229BD2001250DD /* CRSAppDelegate.m */; };
-		1D96599B19229BD2001250DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D96599A19229BD2001250DD /* Images.xcassets */; };
 		1D9659A219229BD2001250DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9659A119229BD2001250DD /* XCTest.framework */; };
 		1D9659A319229BD2001250DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D96598819229BD2001250DD /* Foundation.framework */; };
 		1D9659A419229BD2001250DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D96598C19229BD2001250DD /* UIKit.framework */; };
 		1D9659AC19229BD2001250DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D9659AA19229BD2001250DD /* InfoPlist.strings */; };
 		1D9659AE19229BD2001250DD /* MyFavouriteRecipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9659AD19229BD2001250DD /* MyFavouriteRecipeTests.m */; };
+		1D9659CB19229C20001250DD /* CRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9659BA19229C20001250DD /* CRSAppDelegate.m */; };
+		1D9659CC19229C20001250DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9659C819229C20001250DD /* Images.xcassets */; };
+		1D9659D119229E33001250DD /* CRSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9659D019229E33001250DD /* CRSNetworkManager.m */; };
+		1D9659D51922A965001250DD /* CRSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9659D41922A965001250DD /* CRSMainViewController.m */; };
+		1D9659D91922D88E001250DD /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9659D81922D88E001250DD /* Recipe.m */; };
+		27C43EEFE2DB4CEBA99B623D /* libPods-MyFavouriteRecipe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AE8E35BBA14AE8AB4B7664 /* libPods-MyFavouriteRecipe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +44,24 @@
 		1D96599219229BD2001250DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D96599419229BD2001250DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D96599619229BD2001250DD /* MyFavouriteRecipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFavouriteRecipe-Prefix.pch"; sourceTree = "<group>"; };
-		1D96599719229BD2001250DD /* CRSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSAppDelegate.h; sourceTree = "<group>"; };
-		1D96599819229BD2001250DD /* CRSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRSAppDelegate.m; sourceTree = "<group>"; };
-		1D96599A19229BD2001250DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D9659A019229BD2001250DD /* MyFavouriteRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavouriteRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9659A119229BD2001250DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1D9659A919229BD2001250DD /* MyFavouriteRecipeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFavouriteRecipeTests-Info.plist"; sourceTree = "<group>"; };
 		1D9659AB19229BD2001250DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D9659AD19229BD2001250DD /* MyFavouriteRecipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavouriteRecipeTests.m; sourceTree = "<group>"; };
+		1D9659B919229C20001250DD /* CRSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSAppDelegate.h; sourceTree = "<group>"; };
+		1D9659BA19229C20001250DD /* CRSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSAppDelegate.m; sourceTree = "<group>"; };
+		1D9659C819229C20001250DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D9659CE19229D34001250DD /* CRSRequestEndPoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRSRequestEndPoints.h; sourceTree = "<group>"; };
+		1D9659CF19229E33001250DD /* CRSNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSNetworkManager.h; sourceTree = "<group>"; };
+		1D9659D019229E33001250DD /* CRSNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSNetworkManager.m; sourceTree = "<group>"; };
+		1D9659D21922A7FC001250DD /* CRSGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSGlobals.h; sourceTree = "<group>"; };
+		1D9659D31922A965001250DD /* CRSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRSMainViewController.h; path = Main/CRSMainViewController.h; sourceTree = "<group>"; };
+		1D9659D41922A965001250DD /* CRSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRSMainViewController.m; path = Main/CRSMainViewController.m; sourceTree = "<group>"; };
+		1D9659D71922D88E001250DD /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		1D9659D81922D88E001250DD /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		D1AE8E35BBA14AE8AB4B7664 /* libPods-MyFavouriteRecipe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFavouriteRecipe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2BADB42E744233B6A46DB9 /* Pods-MyFavouriteRecipe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFavouriteRecipe.xcconfig"; path = "Pods/Pods-MyFavouriteRecipe.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 				1D96598B19229BD2001250DD /* CoreGraphics.framework in Frameworks */,
 				1D96598D19229BD2001250DD /* UIKit.framework in Frameworks */,
 				1D96598919229BD2001250DD /* Foundation.framework in Frameworks */,
+				27C43EEFE2DB4CEBA99B623D /* libPods-MyFavouriteRecipe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				1D9659A719229BD2001250DD /* MyFavouriteRecipeTests */,
 				1D96598719229BD2001250DD /* Frameworks */,
 				1D96598619229BD2001250DD /* Products */,
+				DC2BADB42E744233B6A46DB9 /* Pods-MyFavouriteRecipe.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +116,7 @@
 				1D96598A19229BD2001250DD /* CoreGraphics.framework */,
 				1D96598C19229BD2001250DD /* UIKit.framework */,
 				1D9659A119229BD2001250DD /* XCTest.framework */,
+				D1AE8E35BBA14AE8AB4B7664 /* libPods-MyFavouriteRecipe.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,9 +124,10 @@
 		1D96598E19229BD2001250DD /* MyFavouriteRecipe */ = {
 			isa = PBXGroup;
 			children = (
-				1D96599719229BD2001250DD /* CRSAppDelegate.h */,
-				1D96599819229BD2001250DD /* CRSAppDelegate.m */,
-				1D96599A19229BD2001250DD /* Images.xcassets */,
+				1D9659B719229C20001250DD /* Classes */,
+				1D9659C119229C20001250DD /* Libraries */,
+				1D9659C319229C20001250DD /* Other Sources */,
+				1D9659C419229C20001250DD /* Resources */,
 				1D96598F19229BD2001250DD /* Supporting Files */,
 			);
 			path = MyFavouriteRecipe;
@@ -144,6 +162,165 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D9659B719229C20001250DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659B819229C20001250DD /* App Delegate */,
+				1D9659BB19229C20001250DD /* Common */,
+				1D9659BC19229C20001250DD /* Controllers */,
+				1D9659BD19229C20001250DD /* Models */,
+				1D9659BE19229C20001250DD /* ServiceManager */,
+				1D9659BF19229C20001250DD /* Vendors */,
+				1D9659C019229C20001250DD /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1D9659B819229C20001250DD /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659B919229C20001250DD /* CRSAppDelegate.h */,
+				1D9659BA19229C20001250DD /* CRSAppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1D9659BB19229C20001250DD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659D21922A7FC001250DD /* CRSGlobals.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1D9659BC19229C20001250DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659D61922A969001250DD /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D9659BD19229C20001250DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659D71922D88E001250DD /* Recipe.h */,
+				1D9659D81922D88E001250DD /* Recipe.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D9659BE19229C20001250DD /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659CD19229C59001250DD /* NetworkManager */,
+				1D9659CE19229D34001250DD /* CRSRequestEndPoints.h */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		1D9659BF19229C20001250DD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		1D9659C019229C20001250DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D9659C119229C20001250DD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659C219229C20001250DD /* 3rd Party */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		1D9659C219229C20001250DD /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		1D9659C319229C20001250DD /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		1D9659C419229C20001250DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659C519229C20001250DD /* Assets */,
+				1D9659C919229C20001250DD /* PLists */,
+				1D9659CA19229C20001250DD /* Xibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1D9659C519229C20001250DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659C619229C20001250DD /* AppIcon */,
+				1D9659C719229C20001250DD /* Images */,
+				1D9659C819229C20001250DD /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1D9659C619229C20001250DD /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
+		1D9659C719229C20001250DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1D9659C919229C20001250DD /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PLists;
+			sourceTree = "<group>";
+		};
+		1D9659CA19229C20001250DD /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		1D9659CD19229C59001250DD /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659CF19229E33001250DD /* CRSNetworkManager.h */,
+				1D9659D019229E33001250DD /* CRSNetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		1D9659D61922A969001250DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1D9659D31922A965001250DD /* CRSMainViewController.h */,
+				1D9659D41922A965001250DD /* CRSMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D9659B119229BD2001250DD /* Build configuration list for PBXNativeTarget "MyFavouriteRecipe" */;
 			buildPhases = (
+				78F89C4191B24A3F93EE04D5 /* Check Pods Manifest.lock */,
 				1D96598119229BD2001250DD /* Sources */,
 				1D96598219229BD2001250DD /* Frameworks */,
 				1D96598319229BD2001250DD /* Resources */,
+				91B539BAFC3B423786C1E62C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,7 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D96599319229BD2001250DD /* InfoPlist.strings in Resources */,
-				1D96599B19229BD2001250DD /* Images.xcassets in Resources */,
+				1D9659CC19229C20001250DD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,13 +414,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78F89C4191B24A3F93EE04D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91B539BAFC3B423786C1E62C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MyFavouriteRecipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D96598119229BD2001250DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9659D119229E33001250DD /* CRSNetworkManager.m in Sources */,
+				1D9659D91922D88E001250DD /* Recipe.m in Sources */,
 				1D96599519229BD2001250DD /* main.m in Sources */,
-				1D96599919229BD2001250DD /* CRSAppDelegate.m in Sources */,
+				1D9659D51922A965001250DD /* CRSMainViewController.m in Sources */,
+				1D9659CB19229C20001250DD /* CRSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +570,7 @@
 		};
 		1D9659B219229BD2001250DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2BADB42E744233B6A46DB9 /* Pods-MyFavouriteRecipe.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +584,7 @@
 		};
 		1D9659B319229BD2001250DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2BADB42E744233B6A46DB9 /* Pods-MyFavouriteRecipe.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +655,7 @@
 				1D9659B319229BD2001250DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9659B419229BD3001250DD /* Build configuration list for PBXNativeTarget "MyFavouriteRecipeTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +664,7 @@
 				1D9659B619229BD3001250DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
