@@ -27,6 +27,8 @@
         NSLog(@"asdasd");
         NSLog(@"32 ");
         NSLog(@"asdasd");
+        NSLog(@"32 ");
+        NSLog(@"asdasd");
     }
     return self;
 }
