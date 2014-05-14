@@ -16,11 +16,12 @@
 @synthesize steps;
 @synthesize pictureUrlPath;
 
+// hELLO WORLD
 - (id)initWithDictionary:(NSDictionary *) dic {
     
     if (self = [super init]) {
         
-        
+        NSLog(@"asdasd");
     }
     return self;
 }
